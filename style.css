@@ -1,1 +1,23 @@
 /* Empty file. Add your styles here */
+html, body {
+    height: 100%;
+}
+.form-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-box {
+    width: 100%;
+    max-width: 450px;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+.thank-you {
+    display: none;
+    text-align: center;
+    padding: 20px;
+}
